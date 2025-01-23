@@ -1,8 +1,7 @@
-# Import the array module for type-restricted arrays
 from array import array
 
 # Demonstrating Python arrays
-int_array = array('i', [10, 20, 30, 40])  # 'i' means signed integers
+int_array = array('i', [10, 20, 30, 40])  # 'i' means signed integers only
 int_array.append(50)  # Add an element
 int_array.pop(2)      # Remove the element at index 2
 print("Array after operations:", int_array)
