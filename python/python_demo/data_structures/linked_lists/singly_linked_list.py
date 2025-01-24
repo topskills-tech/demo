@@ -12,7 +12,7 @@ class Node:
         self.data = data
         self.next = None  # Points to the next node
 
-class LinkedList:
+class SinglyLinkedList:
     """
     A singly linked list implementation in Python.
 
@@ -65,7 +65,7 @@ class LinkedList:
         print(" -> ".join(map(str, nodes)) + " -> NULL")
 
 # Demo
-ll = LinkedList()
+ll = SinglyLinkedList()
 ll.append(10)
 ll.append(20)
 ll.append(30)
