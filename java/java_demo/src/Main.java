@@ -4,7 +4,7 @@ import data_structures.LinkedListDemo;
 public class Main {
     public static void main(String[] args) {
 
-//        ArrayAndListsDemo.demo();
+        ArrayAndListsDemo.demo();
         LinkedListDemo.demo();
     }
 }

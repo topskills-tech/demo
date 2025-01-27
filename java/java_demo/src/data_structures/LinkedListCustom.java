@@ -26,7 +26,7 @@ class Node {
  * <p>This class provides methods to manipulate a linked list, including adding,
  * removing, and displaying nodes.</p>
  */
-class LinkedList {
+class LinkedListCustom {
     private Node head; // Reference to the first node of the linked list
 
     /**
