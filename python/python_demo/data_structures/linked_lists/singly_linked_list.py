@@ -64,18 +64,21 @@ class SinglyLinkedList:
             current = current.next
         print(" -> ".join(map(str, nodes)) + " -> NULL")
 
-# Demo
-ll = SinglyLinkedList()
-ll.append(10)
-ll.append(20)
-ll.append(30)
-print("After appending:")
-ll.display()
 
-ll.prepend(5)
-print("After prepending:")
-ll.display()
+def demo_singly_linked_list():
+    print("==========================")
+    print("Demo of Singly linked list")
+    print("==========================")
+    ll = SinglyLinkedList()
+    ll.append(10)
+    ll.append(20)
+    ll.append(30)
+    print("After appending:")
+    ll.display()
+    ll.prepend(5)
+    print("After prepending:")
+    ll.display()
+    ll.delete(20)
+    print("After deleting 20:")
+    ll.display()
 
-ll.delete(20)
-print("After deleting 20:")
-ll.display()

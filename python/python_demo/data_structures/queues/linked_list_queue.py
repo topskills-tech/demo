@@ -65,12 +65,16 @@ class LinkedListQueue:
         return self.front.data
 
 
-# Demo
-queue = LinkedListQueue()
-queue.enqueue(10)
-queue.enqueue(20)
-queue.enqueue(30)
-print("Front element:", queue.peek())  # Output: 10
-print("Dequeued:", queue.dequeue())  # Output: 10
-queue.enqueue(40)
-print("Dequeued:", queue.dequeue())  # Output: 20
+def demo_linked_list_based_queue():
+    print("========================")
+    print("Demo of linkedlist based queue")
+    print("========================")
+    # Demo
+    queue = LinkedListQueue()
+    queue.enqueue(10)
+    queue.enqueue(20)
+    queue.enqueue(30)
+    print("Front element:", queue.peek())  # Output: 10
+    print("Dequeued:", queue.dequeue())  # Output: 10
+    queue.enqueue(40)
+    print("Dequeued:", queue.dequeue())  # Output: 20

@@ -68,13 +68,16 @@ class ArrayQueue:
             raise Exception("Queue is empty")
         return self.queue[self.front]
 
-
-# Demo
-queue = ArrayQueue(5)
-queue.enqueue(10)
-queue.enqueue(20)
-queue.enqueue(30)
-print("Front element:", queue.peek())  # Output: 10
-print("Dequeued:", queue.dequeue())  # Output: 10
-queue.enqueue(40)
-print("Dequeued:", queue.dequeue())  # Output: 20
+def demo_array_based_queue():
+    print("========================")
+    print("Demo of array based queue")
+    print("========================")
+    # Demo
+    queue = ArrayQueue(5)
+    queue.enqueue(10)
+    queue.enqueue(20)
+    queue.enqueue(30)
+    print("Front element:", queue.peek())  # Output: 10
+    print("Dequeued:", queue.dequeue())  # Output: 10
+    queue.enqueue(40)
+    print("Dequeued:", queue.dequeue())  # Output: 20
