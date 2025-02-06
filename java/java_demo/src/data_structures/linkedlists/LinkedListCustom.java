@@ -1,4 +1,4 @@
-package data_structures;
+package data_structures.linkedlists;
 
 /**
  * Represents a single node in a linked list.
