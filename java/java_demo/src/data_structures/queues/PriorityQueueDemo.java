@@ -2,10 +2,17 @@ package data_structures.queues;
 
 import java.util.PriorityQueue;
 
+/**
+ * Key Characteristics:
+ *Unlike normal queues, PriorityQueue orders elements based on priority rather than insertion order.
+ * Uses a Min-Heap internally (smallest element at the top).
+ * Time complexity: O(log n) for insertion and removal.
+ * Can specify a custom comparator for Max-Heap behavior.
+ * */
 public class PriorityQueueDemo {
     public static void demo() {
 
-        System.out.println("Demo for priority queue");
+        System.out.println("PriorityQueue queue demo");
         // Min-priority queue
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
