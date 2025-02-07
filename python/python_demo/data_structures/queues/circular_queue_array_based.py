@@ -89,10 +89,10 @@ class CircularQueue:
             print(self.queue[self.rear])
 
 
-def demo_circular_queue():
-    print("========================")
-    print("Demo of circular queue")
-    print("========================")
+def demo_circular_queue_array_based():
+    print("==================================")
+    print("Demo of array based circular queue")
+    print("==================================")
     # Demo
     queue = CircularQueue(5)
     queue.enqueue(10)
