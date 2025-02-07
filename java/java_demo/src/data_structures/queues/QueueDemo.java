@@ -13,6 +13,7 @@ public class QueueDemo {
             PriorityQueueDemo.demo();
             BlockingQueueDemo.demo();
             CircularQueueArrayBased.demo();
+            CircularQueueLinkedListBased.demo();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
