@@ -3,7 +3,8 @@ from data_structures.arrays.array_and_list import demo_array_and_list
 from data_structures.linked_lists.singly_linked_list import demo_singly_linked_list
 from data_structures.queues.array_queue import demo_array_based_queue
 from data_structures.queues.built_in_queue import demo_built_in_queues
-from data_structures.queues.circular_queue import demo_circular_queue
+from data_structures.queues.circular_queue_custom import demo_circular_queue
+from data_structures.queues.circular_queue_deque import demo_circular_queue_deque
 from data_structures.queues.linked_list_queue import demo_linked_list_based_queue
 
 
@@ -18,6 +19,7 @@ def demo():
     demo_linked_list_based_queue()
     demo_built_in_queues()
     demo_circular_queue()
+    demo_circular_queue_deque()
 
 
 # Press the green button in the gutter to run the script.

@@ -30,7 +30,10 @@ class CircularQueue:
 
     def enqueue(self, value):
         """
-        Adds an element to the rear of the queue.
+        Enqueue (Insert):
+
+        Adds an element to the rear, ensuring the index wraps around when the end is reached.
+        If the queue is full, the element cannot be inserted.
 
         Args:
             value: The value to add to the queue.
@@ -49,7 +52,10 @@ class CircularQueue:
 
     def dequeue(self):
         """
-        Removes and returns the front element of the queue.
+        Dequeue (Remove):
+
+        Removes an element from the front, with the index wrapping around when it reaches the end.
+        If the queue is empty, dequeue cannot be performed.
 
         Raises:
             Exception: If the queue is empty.
