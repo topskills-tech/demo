@@ -15,7 +15,10 @@ import java.util.Queue;
 
 public class LinkedListQueueDemo {
     public static void demo() {
+        System.out.println("===========================");
         System.out.println("LinkedList based queue demo");
+        System.out.println("===========================");
+
         Queue<Integer> queue = new LinkedList<>();
 
         // Enqueue (add elements)

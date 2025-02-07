@@ -13,7 +13,9 @@ import java.util.Queue;
 
 public class ArrayDequeDemo{
     public static void demo() {
+        System.out.println("=====================");
         System.out.println("ArrayDeque queue demo");
+        System.out.println("=====================");
         Queue<String> queue = new ArrayDeque<>();
 
         queue.offer("Alice");

@@ -15,7 +15,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 public class BlockingQueueDemo {
     public static void demo () throws InterruptedException {
+        System.out.println("========================");
         System.out.println("BlockingQueue queue demo");
+        System.out.println("========================");
         BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(2);
 
         queue.put(1);

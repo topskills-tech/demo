@@ -11,8 +11,9 @@ import java.util.PriorityQueue;
  * */
 public class PriorityQueueDemo {
     public static void demo() {
-
+        System.out.println("========================");
         System.out.println("PriorityQueue queue demo");
+        System.out.println("========================");
         // Min-priority queue
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
