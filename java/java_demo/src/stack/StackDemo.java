@@ -1,7 +1,5 @@
 package stack;
 
-import data_structures.queues.*;
-
 public class StackDemo {
 
     public static void demo(){
@@ -10,5 +8,7 @@ public class StackDemo {
         System.out.println("===============");
 
         ArrayBasedStack.demo();
+        LinkedListBasedStack.demo();
+        BuiltInStack.demo();
     }
 }
