@@ -1,5 +1,7 @@
 # This is a sample Python script.
 from data_structures.arrays.array_and_list import demo_array_and_list
+from data_structures.hashtables.builtin_hashtables import demo_builtin_hashtables
+from data_structures.hashtables.custom_hash_table import demo_custom_hash_table
 from data_structures.linked_lists.singly_linked_list import demo_singly_linked_list
 from data_structures.queues.array_queue import demo_array_based_queue
 from data_structures.queues.built_in_queue import demo_built_in_queues
@@ -28,6 +30,8 @@ def demo():
     demo_array_based_stack()
     demo_linkedlist_stack()
     demo_builtin_list_stack()
+    demo_builtin_hashtables()
+    demo_custom_hash_table()
 
 
 # Press the green button in the gutter to run the script.

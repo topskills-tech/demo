@@ -45,9 +45,9 @@ class LinkedListStack:
 
 def demo_linkedlist_stack():
     # Demo
-    print("========================")
+    print("==============================")
     print("Demo of linkedlist based stack")
-    print("========================")
+    print("==============================")
     stack = LinkedListStack()
     stack.push(10)
     stack.push(20)
