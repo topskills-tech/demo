@@ -1,4 +1,4 @@
-package stack;
+package data_structures.stack;
 
 class ArrayBasedStack {
     private final int[] stack;
@@ -8,7 +8,7 @@ class ArrayBasedStack {
     public ArrayBasedStack(int size) {
         this.maxSize = size;
         this.stack = new int[size];
-        this.top = -1;  // Indicates an empty stack
+        this.top = -1;  // Indicates an empty data_structures.stack
     }
 
     public void push(int data) {
@@ -46,7 +46,7 @@ class ArrayBasedStack {
 
     public static void demo() {
         System.out.println("===============");
-        System.out.println("Demo for array based stack");
+        System.out.println("Demo for array based data_structures.stack");
         System.out.println("===============");
         ArrayBasedStack stack = new ArrayBasedStack(5);
         stack.push(10);

@@ -1,7 +1,7 @@
-package stack;
+package data_structures.stack;
 
 /**
- * Node class representing an element in the linked list-based stack.
+ * Node class representing an element in the linked list-based data_structures.stack.
  */
 class Node {
     int data;
@@ -20,8 +20,8 @@ class LinkedListBasedStack {
     private Node top;  // Pointer to the top element
 
     /**
-     * Pushes an element onto the stack.
-     * @param value The value to push onto the stack.
+     * Pushes an element onto the data_structures.stack.
+     * @param value The value to push onto the data_structures.stack.
      */
     public void push(int value) {
         Node newNode = new Node(value);
@@ -30,8 +30,8 @@ class LinkedListBasedStack {
     }
 
     /**
-     * Removes and returns the top element of the stack.
-     * @return The popped element, or -1 if the stack is empty.
+     * Removes and returns the top element of the data_structures.stack.
+     * @return The popped element, or -1 if the data_structures.stack is empty.
      */
     public int pop() {
         if (isEmpty()) {
@@ -45,14 +45,14 @@ class LinkedListBasedStack {
 
     /**
      * Returns the top element without removing it.
-     * @return The top element, or -1 if the stack is empty.
+     * @return The top element, or -1 if the data_structures.stack is empty.
      */
     public int peek() {
         return isEmpty() ? -1 : top.data;
     }
 
     /**
-     * Checks if the stack is empty.
+     * Checks if the data_structures.stack is empty.
      * @return True if empty, otherwise false.
      */
     public boolean isEmpty() {
@@ -60,7 +60,7 @@ class LinkedListBasedStack {
     }
 
     /**
-     * Displays all elements in the stack.
+     * Displays all elements in the data_structures.stack.
      */
     public void display() {
         if (isEmpty()) {
@@ -77,7 +77,7 @@ class LinkedListBasedStack {
 
     public static void demo() {
         System.out.println("==============================");
-        System.out.println("Demo of LinkedList based stack");
+        System.out.println("Demo of LinkedList based data_structures.stack");
         System.out.println("==============================");
         LinkedListBasedStack stack = new LinkedListBasedStack();
         stack.push(10);
