@@ -6,8 +6,10 @@ from data_structures.queues.built_in_queue import demo_built_in_queues
 from data_structures.queues.circular_queue_array_based import demo_circular_queue_array_based
 from data_structures.queues.circular_queue_deque import demo_circular_queue_deque
 from data_structures.queues.circular_queue_linkedlist_based import demo_circular_queue_linkedlist_based
-from data_structures.queues.linked_list_queue import demo_linked_list_based_queue
+from data_structures.queues.linkedlist_queue import demo_linked_list_based_queue
 from data_structures.stack.array_stack import demo_array_based_stack
+from data_structures.stack.builtin_list_based_stack import demo_builtin_list_stack
+from data_structures.stack.linkedlist_stack import demo_linkedlist_stack
 
 
 # Press ⌃R to execute it or replace it with your code.
@@ -24,6 +26,8 @@ def demo():
     demo_circular_queue_deque()
     demo_circular_queue_linkedlist_based()
     demo_array_based_stack()
+    demo_linkedlist_stack()
+    demo_builtin_list_stack()
 
 
 # Press the green button in the gutter to run the script.
