@@ -19,9 +19,9 @@ class BinaryTree:
 
 def demo_binary_tree():
     # Demo
-    print("==============================")
+    print("=====================")
     print("Demo of a binary tree")
-    print("==============================")
+    print("=====================")
     bt = BinaryTree(10)
     bt.root.left = Node(5)
     bt.root.right = Node(15)
