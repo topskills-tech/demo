@@ -1,37 +1,41 @@
 package data_structures.tree;
 
-public class BinarySearchTreeDemo {
 
-    static class Node {
+
+    class BST {
         int key;
-        Node left, right;
+        BST left, right;
 
-        public Node(int item) {
+        public BST(int item) {
             key = item;
             left = right = null;
         }
-    }
-        Node root;
 
-        public BinarySearchTreeDemo(int key) {
-            root = new Node(key);
+        void insert(int key) {
+            if (key < this.key) {
+                if (left == null) left = new BST(key);
+                else left.insert(key);
+            } else {
+                if (right == null) right = new BST(key);
+                else right.insert(key);
+            }
         }
 
-        void inorderTraversal(Node node) {
-            if (node != null) {
-                inorderTraversal(node.left);
-                System.out.print(node.key + " ");
-                inorderTraversal(node.right);
-            }
+        boolean search(int key) {
+            if (this.key == key) return true;
+            else if (key < this.key && left != null) return left.search(key);
+            else if (key > this.key && right != null) return right.search(key);
+            return false;
         }
 
         public static void demo() {
             System.out.println("===============");
             System.out.println("Demo for binary search tree");
             System.out.println("===============");
-            BinarySearchTreeDemo bt = new BinarySearchTreeDemo(10);
-            bt.root.left = new Node(5);
-            bt.root.right = new Node(15);
-            bt.inorderTraversal(bt.root); // Output: 5 10 15
+            BST bst = new BST(10);
+            bst.insert(5);
+            bst.insert(15);
+            System.out.println(bst.search(5));  // Output: true
+            System.out.println(bst.search(20)); // Output: false
         }
     }
