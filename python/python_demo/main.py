@@ -12,6 +12,7 @@ from data_structures.queues.linkedlist_queue import demo_linked_list_based_queue
 from data_structures.stack.array_stack import demo_array_based_stack
 from data_structures.stack.builtin_list_based_stack import demo_builtin_list_stack
 from data_structures.stack.linkedlist_stack import demo_linkedlist_stack
+from data_structures.trees.binary_tree import demo_binary_tree
 
 
 # Press ⌃R to execute it or replace it with your code.
@@ -19,19 +20,32 @@ from data_structures.stack.linkedlist_stack import demo_linkedlist_stack
 
 
 def demo():
+
+    #Array
     demo_array_and_list()
+
+    #Linked List
     demo_singly_linked_list()
+
+    #Queue
     demo_array_based_queue()
     demo_linked_list_based_queue()
     demo_built_in_queues()
     demo_circular_queue_array_based()
     demo_circular_queue_deque()
     demo_circular_queue_linkedlist_based()
+
+    #Stack
     demo_array_based_stack()
     demo_linkedlist_stack()
     demo_builtin_list_stack()
+
+    #Hash Table
     demo_builtin_hashtables()
     demo_custom_hash_table()
+
+    #Tree
+    demo_binary_tree()
 
 
 # Press the green button in the gutter to run the script.
