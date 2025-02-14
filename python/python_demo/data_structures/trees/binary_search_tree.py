@@ -27,7 +27,6 @@ class BST:
         return False
 
 def demo_binary_search_tree():
-    # Demo
     print("============================")
     print("Demo of a binary search tree")
     print("============================")
