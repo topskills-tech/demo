@@ -4,6 +4,7 @@ import data_structures.linkedlist.LinkedListDemo;
 import data_structures.queue.QueueDemo;
 import data_structures.stack.StackDemo;
 import data_structures.tree.BinaryTreeDemo;
+import data_structures.tree.TreeDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class Main {
         QueueDemo.demo();
         StackDemo.demo();
         HashTableDemo.demo();
-        BinaryTreeDemo.demo();
+        TreeDemo.demo();
 
     }
 }

@@ -9,5 +9,6 @@ public class TreeDemo {
         System.out.println("===============");
 
         BinaryTreeDemo.demo();
+        BinarySearchTreeDemo.demo();
     }
 }
