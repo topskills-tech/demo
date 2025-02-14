@@ -1,4 +1,4 @@
-package data_structures.queues;
+package data_structures.queue;
 
 public class QueueDemo {
 

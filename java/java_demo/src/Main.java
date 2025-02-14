@@ -1,8 +1,9 @@
-import data_structures.arrays.ArrayAndListsDemo;
-import data_structures.hashtables.HashTableDemo;
-import data_structures.linkedlists.LinkedListDemo;
-import data_structures.queues.QueueDemo;
+import data_structures.array.ArrayAndListsDemo;
+import data_structures.hashtable.HashTableDemo;
+import data_structures.linkedlist.LinkedListDemo;
+import data_structures.queue.QueueDemo;
 import data_structures.stack.StackDemo;
+import data_structures.tree.BinaryTreeDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class Main {
         QueueDemo.demo();
         StackDemo.demo();
         HashTableDemo.demo();
+        BinaryTreeDemo.demo();
 
     }
 }

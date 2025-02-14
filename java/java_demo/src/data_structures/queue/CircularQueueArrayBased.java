@@ -1,4 +1,4 @@
-package data_structures.queues;
+package data_structures.queue;
 
 /**
  * CircularQueue - A fixed-size circular queue implementation using an array.
