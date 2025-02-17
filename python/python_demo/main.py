@@ -15,6 +15,7 @@ from data_structures.stack.linkedlist_stack import demo_linkedlist_stack
 from data_structures.trees.avl_self_balancing_tree import demo_self_balancing_tree
 from data_structures.trees.binary_search_tree import demo_binary_search_tree
 from data_structures.trees.binary_tree import demo_binary_tree
+from data_structures.trees.red_black_tree import demo_red_black_tree
 
 
 # Press ⌃R to execute it or replace it with your code.
@@ -50,6 +51,7 @@ def demo():
     demo_binary_tree()
     demo_binary_search_tree()
     demo_self_balancing_tree()
+    demo_red_black_tree()
 
 
 # Press the green button in the gutter to run the script.

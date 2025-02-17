@@ -26,3 +26,4 @@ def demo_binary_tree():
     bt.root.left = Node(5)
     bt.root.right = Node(15)
     bt.inorder_traversal(bt.root)  # Output: 5 10 15
+    print("\n")

@@ -87,9 +87,9 @@ class AVLTree:
             self.inorder_traversal(root.right)
 
 def demo_self_balancing_tree():
-    print("==================================")
+    print("====================================")
     print("Demo of an AVL : self balancing tree")
-    print("==================================")
+    print("====================================")
     avl_tree = AVLTree()
     root = None
 
@@ -99,3 +99,4 @@ def demo_self_balancing_tree():
 
     print("Inorder traversal of the balanced AVL tree:")
     avl_tree.inorder_traversal(root)  # Output: 10 20 25 30 40 50
+    print("\n")
