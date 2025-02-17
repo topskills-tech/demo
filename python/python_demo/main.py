@@ -1,5 +1,6 @@
 # This is a sample Python script.
 from data_structures.arrays.array_and_list import demo_array_and_list
+from data_structures.graph.adjacency_list_graph import demo_graph
 from data_structures.hashtables.builtin_hashtables import demo_builtin_hashtables
 from data_structures.hashtables.custom_hash_table import demo_custom_hash_table
 from data_structures.linked_lists.singly_linked_list import demo_singly_linked_list
@@ -52,6 +53,7 @@ def demo():
     demo_binary_search_tree()
     demo_self_balancing_tree()
     demo_red_black_tree()
+    demo_graph()
 
 
 # Press the green button in the gutter to run the script.

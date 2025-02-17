@@ -58,3 +58,4 @@ def demo_red_black_tree():
     rbt.insert(20)
     rbt.insert(15)
     rbt.inorder_traversal(rbt.root)
+    print("\n")
