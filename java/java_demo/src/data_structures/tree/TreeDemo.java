@@ -10,5 +10,6 @@ public class TreeDemo {
 
         BinaryTreeDemo.demo();
         BST.demo();
+        AVLTree.demo();
     }
 }
