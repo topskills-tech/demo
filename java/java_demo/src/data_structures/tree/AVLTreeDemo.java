@@ -67,9 +67,9 @@ class AVLTree {
     }
 
     public static void demo() {
-        System.out.println("===============");
+        System.out.println("=================");
         System.out.println("Demo for AVL tree");
-        System.out.println("===============");
+        System.out.println("=================");
         AVLTree tree = new AVLTree();
         tree.insert(10);
         tree.insert(20);

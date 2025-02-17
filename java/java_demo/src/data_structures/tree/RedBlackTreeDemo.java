@@ -1,6 +1,7 @@
 package data_structures.tree;
 
 class RedBlackNode {
+    boolean colour;
     int key;
     RedBlackNode left, right, parent;
     boolean isRed;
@@ -8,6 +9,7 @@ class RedBlackNode {
     public RedBlackNode(int key) {
         this.key = key;
         this.isRed = true; // New nodes are always red initially
+        this.colour = true;
         this.left = this.right = this.parent = null;
     }
 }
@@ -54,10 +56,22 @@ class RedBlackTree {
         // Balancing logic after insertion
     }
 
+    public void inorderTraversal(RedBlackNode node) {
+        if (node != null) {
+            inorderTraversal(node.left);
+            System.out.print(node.key + " (" + (node.colour ? "RED" : "BLACK") + ") ");
+            inorderTraversal(node.right);
+        }
+    }
+
     public static void demo() {
+        System.out.println("=======================");
+        System.out.println("Demo for Red black tree");
+        System.out.println("=======================");
         RedBlackTree rbt = new RedBlackTree();
         rbt.insert(10);
         rbt.insert(20);
         rbt.insert(15);
+        rbt.inorderTraversal(rbt.root);
     }
 }

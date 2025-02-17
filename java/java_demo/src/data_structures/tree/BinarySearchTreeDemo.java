@@ -29,13 +29,14 @@ package data_structures.tree;
         }
 
         public static void demo() {
-            System.out.println("===============");
+            System.out.println("===========================");
             System.out.println("Demo for binary search tree");
-            System.out.println("===============");
+            System.out.println("===========================");
             BST bst = new BST(10);
             bst.insert(5);
             bst.insert(15);
             System.out.println(bst.search(5));  // Output: true
             System.out.println(bst.search(20)); // Output: false
+            System.out.println("\n");
         }
     }

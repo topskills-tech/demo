@@ -26,12 +26,13 @@ public class BinaryTreeDemo {
     }
 
     public static void demo() {
-        System.out.println("===============");
+        System.out.println("====================");
         System.out.println("Demo for binary tree");
-        System.out.println("===============");
+        System.out.println("====================");
         BinaryTreeDemo binaryTreeDemo = new BinaryTreeDemo(10);
         binaryTreeDemo.root.left = new Node(5);
         binaryTreeDemo.root.right = new Node(15);
         binaryTreeDemo.inorderTraversal(binaryTreeDemo.root); // Output: 5 10 15
+        System.out.println("\n");
     }
 }
